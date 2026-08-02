@@ -65,7 +65,6 @@ for song in chart:
         'peak_rank': song.peakPos,
         'weeks_on_chart': song.weeks,
         'release_year': release_year,
-        'lyric_length' : len(lyrics.split()) if lyrics else 0,
     })
     
     time.sleep(1)  # To respect API rate limits
