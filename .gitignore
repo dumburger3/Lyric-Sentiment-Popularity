@@ -1,2 +1,4 @@
+.venv/
 .env
-.venv312/
+__pycache__/
+.ipynb_checkpoints/
