@@ -2,6 +2,15 @@
 
 Do a song's lyrics predict where it lands on the Billboard Hot 100?
 
+A bit of context - Hello, I'm Danny and one of the things that has had the biggest impact on 
+my life is music. Whenever, I'm feeling down, or need something to relax to, or just want something in
+the background, music has always found a way in my life. Some of my favorite artists include
+Daniel Caesar, Ariana Grande, Lauv, and a whole lot more. But the biggest thing about me is I listen to all
+kinds of music, whether that be R&B, Pop, Video game music, 2010 party bops, KPOP/JPOP, you name it. A good amount 
+of these songs that I listen to, however, are pretty popular and that made me wonder what about these songs 
+make them popular. For example, I wanted to look at how only the lyrics, nothing else, would have an impact
+on how well they perform.
+
 This project collects the Hot 100 chart, pulls each song's lyrics, scores them for
 emotional content with a transformer-based classifier, and tests whether those
 signals can predict chart rank.
